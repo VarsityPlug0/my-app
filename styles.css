@@ -129,6 +129,11 @@ body {
     overflow: hidden;
     box-shadow: 0 5px 15px rgba(0, 31, 63, 0.1);
     border: 1px solid #e6eef5;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px);
 }
 
 .portfolio-card img {
@@ -145,6 +150,21 @@ body {
 .portfolio-card p {
     padding: 0 20px 20px;
     color: #666;
+}
+
+.portfolio-link {
+    display: inline-block;
+    margin: 0 20px 20px;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-link:hover {
+    background-color: #0059b3;
 }
 
 /* Testimonials Section */
